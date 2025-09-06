@@ -1,0 +1,17 @@
+[package]
+name = "four"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dotenvy = "0.15.7"
+tokio = { version = "1.47.1", features = ["rt", "rt-multi-thread", "macros"] }
+tracing = "0.1.41"
+tracing-subscriber = "0.3.20"
+twilight-cache = "0.0.0"
+twilight-cache-inmemory = "0.16.0"
+twilight-gateway = "0.16.0"
+twilight-http = { version = "0.16.0", features = ["simd-json"] }
+twilight-interactions = "0.16.2"
+twilight-model = "0.16.0"
+twilight-util = { version = "0.16.0", features = ["builder"] }
